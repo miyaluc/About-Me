@@ -1,13 +1,19 @@
+body {
+  background-color: #7d8ca3;
+  text-shadow: 10px;
+  color: #5a739b
+}
+
 h1 {
-  background-color: green;
+  background-color: #bdc2c9;
 }
 
 p {
-  border: 5px solid black;
+  border: 2px dotted black;
 }
 
 .page-content {
-  background-color: red;
+  background-color: #705582;
 }
 
 #unique-p-tag {

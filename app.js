@@ -8,48 +8,48 @@ var user = prompt('What is your name?');
 
       if (answer1.toUpperCase() === 'Y') {
         alert('Wrong. Try again. Or don\'t.... It\'s your choice.');
-        console.log('Wrong. Try again. Or don\'t.... It\'s your choice.')
+        console.log('Wrong. Try again. Or don\'t.... It\'s your choice.');
       } else {
         alert('Correct, I\'ve been here for almost three years.');
-        console.log('Correct, I\'ve been here for almost three years.')
+        console.log('Correct, I\'ve been here for almost three years.');
       }
 
       var answer2 = prompt('Does Miya have a cat?');
 
       if (answer2.toUpperCase() === 'Y') {
         alert('Correct. He\'s still a kitten, and super playful.');
-        console.log('Correct. He\'s still a kitten, and super playful.')
+        console.log('Correct. He\'s still a kitten, and super playful.');
       } else {
         alert('Incorrect.');
-        console.log('Incorrect.')
+        console.log('Incorrect.');
       }
 
       var answer3 = prompt('Is Miya\'s cat named Purrmonster?');
 
       if (answer3.toUpperCase() === 'Y') {
         alert('No. It\'s Gryphen. Who names a cat Purrmonster?');
-        console.log('No. It\'s Gryphen. Who names a cat Purrmonster?')
+        console.log('No. It\'s Gryphen. Who names a cat Purrmonster?');
       } else {
         alert('You\'re right. His name is actually Gryphen.');
-        console.log('You\'re right. His name is actually Gryphen.')
+        console.log('You\'re right. His name is actually Gryphen.');
       }
 
       var answer4 = prompt('Does Miya have a great love for all things food-related?');
 
       if (answer4.toUpperCase() === 'Y') {
         alert('Uh huh. Gimme the food!');
-        console.log('Uh huh. Gimme the food!')
+        console.log('Uh huh. Gimme the food!');
       } else {
         alert('You\'re right. I actually like starving myself. Builds character.');
-        console.log('You\'re right. I actually like starving myself. Builds character.')
+        console.log('You\'re right. I actually like starving myself. Builds character.');
       }
 
       var answer5 = prompt('Does Miya have a big family?');
 
       if (answer5.toUpperCase() === "Y") {
         alert('True. I\'m the first of four kids. It was a loud house.');
-        console.log('True. I\'m the first of four kids. It was a loud house.')
+        console.log('True. I\'m the first of four kids. It was a loud house.');
       } else {
         alert('Wrong again! You\'ve got a lot to learn.')
-        console.log('True. I\'m the first of four kids. It was a loud house.')
+        console.log('True. I\'m the first of four kids. It was a loud house.');
       }
