@@ -62,8 +62,7 @@ if (answer6 == 3) {
   alert('Correct!');
   guess++;
   break;
-} else if
- (answer6 < 3) {
+} else if (answer6 < 3) {
   answer6 = prompt('Too low!');
   guess++;
 } else {
@@ -71,6 +70,8 @@ if (answer6 == 3) {
   guess++;
 }
 }
+alert('You are out of guesses!');
+
   // if (guess = 4){
   //   alert("no more guess");
   //   break;
