@@ -55,27 +55,26 @@ var answer6 = prompt('What number indicates how many miles I\'m comfortable runn
 
 var guess = 0;
 
-for (i=0; i<3; i++){
+for (i = 0; i < 3; i++){
 
+  if (answer6 == 3) {
+    alert('Correct!');
+    guess ++;
+    break;
+  } else if (answer6 < 3) {
+    answer6 = prompt('Too low!');
+    guess++;
+  } else {
+    answer6 = prompt('Too high!');
+    guess++;
+    alert('You are out of guesses!')
+  }
+}
 
-if (answer6 == 3) {
-  alert('Correct!');
-  guess++;
-  break;
-} else if
- (answer6 < 3) {
-  answer6 = prompt('Too low!');
-  guess++;
-} else {
- answer6 = prompt('Too high!');
-  guess++;
-}
-}
   // if (guess = 4){
   //   alert("no more guess");
   //   break;
   // }
-
 
 
 var answer7 = prompt('Can you guess which countries I\'ve been to?');
