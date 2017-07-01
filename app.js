@@ -55,26 +55,20 @@ var answer6 = prompt('What number indicates how many miles I\'m comfortable runn
 
 var guess = 0;
 
-for (i = 0; i < 3; i++){
-
-  if (answer6 == 3) {
-    alert('Correct!');
-    guess ++;
+while (guess < 4) {
+ if (answer6 < 3 || answer6 > 3) {
+    answer6 = prompt('You are so off.');
+    guess++;
+  } else if (answer6 = 3) {
+      alert('Correct!');
+      console.log('You know me so well. We should be buddies.');
+      guess ++;
+      break;
+  } else (guess = 4)
+    alert('No more guesses!');
+    console.log('No more guesses!');
     break;
-  } else if (answer6 < 3) {
-    answer6 = prompt('Too low!');
-    guess++;
-  } else {
-    answer6 = prompt('Too high!');
-    guess++;
-    alert('You are out of guesses!');
-  }
-}
-
-  // if (guess = 4){
-  //   alert("no more guess");
-  //   break;
-  // }
+  };
 
 var answer7 = prompt('Can you guess which countries I\'ve been to?');
 
@@ -82,6 +76,6 @@ var countries = ['USA', 'France', 'England', 'Scotland', 'Spain', 'China', 'the 
 
 answer7 = countries;
 
-while (true) {
-
+while (answer7 = true) {
+  
 }
