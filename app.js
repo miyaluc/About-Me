@@ -53,11 +53,6 @@ if (answer5.toUpperCase() === 'Y') {
 
 var answer6 = prompt('What number indicates how many miles I\'m comfortable running at one time (without stopping)? (Hint: I\'m no marathon runner!) Please enter a numerical value!');
 
-var guess = 0;
-
-while (guess < 4) {
- if (answer6 < 3 || answer6 > 3) {
-    answer6 = prompt('You are so off.');
     guess++;
   } else if (answer6 = 3) {
       alert('Correct!');
