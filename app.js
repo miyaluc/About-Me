@@ -74,8 +74,23 @@ var answer7 = prompt('Can you guess which countries I\'ve been to?');
 
 var countries = ['USA', 'France', 'England', 'Scotland', 'Spain', 'China', 'the Bahamas', 'Canada'];
 
-answer7 = countries;
+var guesses = 6;
+var tries = 0;
 
-while (answer7 = true) {
-  
+while (tries < 6) {
+  if (answer7.toUpperCase() != countries[0] || countries[1] || countries[2] || countries[3] || countries[4] || countries[5] || countries[6] || countries[7]) {
+    guesses--;
+    tries ++;
+    alert('Try again. You have ' + guesses + 'left.' )
+    prompt('Can you guess which countries I\'ve been to?');
+    console.log('Try again.');
+  }  else if (answer7.toUpperCase() = countries[0] || countries[1] || countries[2] || countries[3] || countries[4] || countries[5] || countries[6] || countries[7]) {
+    alert('Correct!');
+    guesses--;
+    tries++;
+    break;
 }
+};
+
+alert('I have gone to the USA, France, England, Scotland, Spain, China, the Bahamas, and Canada.')
+console.log('I have gone to the USA, France, England, Scotland, Spain, China, the Bahamas, and Canada.');
