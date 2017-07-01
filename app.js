@@ -53,33 +53,39 @@ if (answer5.toUpperCase() === 'Y') {
 
 var answer6 = prompt('What number indicates how many miles I\'m comfortable running at one time (without stopping)? (Hint: I\'m no marathon runner!) Please enter a numerical value!');
 
-for (i = 0; i < 3; i++){
-  var guess = 0;
-  if (answer6 == 3) {
-    alert('Correct!');
-    guess ++;
+    guess++;
+  } else if (answer6 = 3) {
+      alert('Correct!');
+      console.log('You know me so well. We should be buddies.');
+      guess ++;
+      break;
+  } else (guess = 4)
+    alert('No more guesses!');
+    console.log('No more guesses!');
     break;
-  } else if (answer6 < 3) {
-    answer6 = prompt('Too low!');
-    guess++;
-  } else {
-    answer6 = prompt('Too high!');
-    guess++;
-    alert('You are out of guesses!');
-  }
-}
-
-  // if (guess = 4){
-  //   alert("no more guess");
-  //   break;
-  // }
+  };
 
 var answer7 = prompt('Can you guess which countries I\'ve been to?');
 
 var countries = ['USA', 'France', 'England', 'Scotland', 'Spain', 'China', 'the Bahamas', 'Canada'];
 
-answer7 = countries;
+var guesses = 6;
+var tries = 0;
 
-while (true) {
-
+while (tries < 6) {
+  if (answer7.toUpperCase() != countries[0] || countries[1] || countries[2] || countries[3] || countries[4] || countries[5] || countries[6] || countries[7]) {
+    guesses--;
+    tries ++;
+    alert('Try again. You have ' + guesses + 'left.' )
+    prompt('Can you guess which countries I\'ve been to?');
+    console.log('Try again.');
+  }  else if (answer7.toUpperCase() = countries[0] || countries[1] || countries[2] || countries[3] || countries[4] || countries[5] || countries[6] || countries[7]) {
+    alert('Correct!');
+    guesses--;
+    tries++;
+    break;
 }
+};
+
+alert('I have gone to the USA, France, England, Scotland, Spain, China, the Bahamas, and Canada.')
+console.log('I have gone to the USA, France, England, Scotland, Spain, China, the Bahamas, and Canada.');
